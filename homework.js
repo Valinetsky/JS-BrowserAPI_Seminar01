@@ -38,6 +38,7 @@ function renderWorkoutSchedule(workoutsInfo) {
         }
     });
 }
+
 renderWorkoutSchedule(workoutsInfo);
 
 const scheduleBox = document.querySelector(".schedule-box");
