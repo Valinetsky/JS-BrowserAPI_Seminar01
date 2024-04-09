@@ -14,8 +14,14 @@ function renderWorkoutSchedule(workoutsInfo) {
 			<div class="schedule_item">
             <p class="schedule_item-title">${item.name_of_workout}</p>
             <p class="schedule_item-time">${item.time_of_workout}</p>
-			<p class="schedule_item-maxnumber">Максимальное количество участников: <span>${item.max_number_of_participants}</span></p>
-            <p data-id=${item.id} class="schedule_item-currentnumber">Текущее количество записанных участников: <span>${item.current_number_of_participants}</span></p>
+            <div class="full">
+				<p class="schedule_item-maxnumber" style="text-align:left">Максимальное<br>количество участников:</p>
+				<p><span>${item.max_number_of_participants}</span></p>
+			</div>
+			<div class="full">
+                <p data-id=${item.id} class="schedule_item-currentnumber">Текущее количество<br>записанных участников:</p>
+                <p><span>${item.current_number_of_participants}</span></p>
+            </div>
             <div class="button-box">
             <button class="button-submit" id="${item.id}">Записаться</button>
             <button class="button-reject disabled" data-id="${item.name_of_workout}">Отменить запись</button>
