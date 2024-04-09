@@ -80,7 +80,7 @@ body {
 	border: 1px solid rgb(190, 104, 141);
 
 
-	transition: all 0.5s ease-out;
+	transition: all 0.3s ease-out;
 }
 
 /* p {
@@ -139,7 +139,7 @@ span {
 	background: aliceblue;
 	border: 1px solid rgb(190, 104, 141);
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-	transition: all 0.8s ease-out;
+	transition: all 0.3s ease-out;
 }
 
 .button-reject:hover {
