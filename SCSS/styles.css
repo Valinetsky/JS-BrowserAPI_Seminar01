@@ -117,6 +117,7 @@ body:before {
   font-size: 3vw;
   color: white;
   text-align: center;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .schedule_item-box {
