@@ -5,7 +5,7 @@ export const workouts = `
         "name_of_workout": "HATHA YOGA",
         "time_of_workout": "09:30 - 11:00",
         "max_number_of_participants": "15",
-        "current_number_of_participants": "5"
+        "current_number_of_participants": "15"
     },
     {
         "id": "2",
@@ -32,8 +32,8 @@ export const workouts = `
         "id": "5",
         "name_of_workout": "Aqua Dumbells",
         "time_of_workout": "11:00 - 11:45",
-        "max_number_of_participants": "10",
-        "current_number_of_participants": "8"
+        "max_number_of_participants": "3",
+        "current_number_of_participants": "3"
     },
     {
         "id": "6",
@@ -47,7 +47,7 @@ export const workouts = `
         "name_of_workout": "FUNCTIONAL",
         "time_of_workout": "09:30 - 11:00",
         "max_number_of_participants": "20",
-        "current_number_of_participants": "13"
+        "current_number_of_participants": "20"
     },
     {
         "id": "8",

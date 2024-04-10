@@ -77,6 +77,8 @@ body:before {
 /*  */
 .header {
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 .icon-title-box__logo {
@@ -85,7 +87,9 @@ body:before {
 }
 
 .icon-title-box__title {
-  font-size: 10vw;
+  position: sticky;
+  top: 0;
+  font-size: 8vw;
   color: white;
   color: #fff;
   font-weight: 400;
@@ -95,8 +99,8 @@ body:before {
 }
 
 .center {
-  padding-left: calc(50% - 45vw);
-  padding-right: calc(50% - 45vw);
+  padding-left: calc(50% - 49vw);
+  padding-right: calc(50% - 49vw);
 }
 
 .schedule-box {
@@ -108,10 +112,11 @@ body:before {
 }
 
 .title {
-  font-size: 35px;
+  position: sticky;
+  top: 0;
+  font-size: 3vw;
   color: white;
   text-align: center;
-  opacity: 3;
 }
 
 .schedule_item-box {
@@ -127,8 +132,9 @@ body:before {
 
 .schedule_item-box:hover {
   border-radius: 0;
-  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0px 66px rgba(0, 0, 0, 0.8);
   transition: all 0.3s ease-out;
+  z-index: 999;
 }
 
 /* p {
@@ -156,7 +162,7 @@ body:before {
 
 span {
   font-size: 2vw;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 0.1em;
 }
 
@@ -179,21 +185,17 @@ span {
   border: 1px solid white;
   text-transform: uppercase;
   font-weight: 700;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 
-.button-submit:hover {
+.button-submit:hover,
+.button-reject:hover {
   background: aliceblue;
   border: 1px solid white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   color: black;
-  transition: all 0.3s ease-out;
-}
-
-.button-reject:hover {
-  color: #2b415e;
-  background: aliceblue;
-  border: 1px solid #2b415e;
-  transition: all 0.8s ease-out;
+  transition: all 0.2s ease-out;
+  transform: scale(1.05);
 }
 
 .disabled {
@@ -218,11 +220,18 @@ span {
   margin-right: auto;
   left: 0;
   right: 0;
-  top: 10vw;
+  top: 13vw;
   text-align: center;
   z-index: -1;
 }
 
 .logobox img {
-  width: 50%;
+  width: 33%;
+}
+
+.no-hover:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
 }/*# sourceMappingURL=styles.css.map */
